@@ -173,15 +173,15 @@ img {
   margin: 0;
   display: grid;
   place-items: center;
-  background-color: #282C34;
+
   height: 55rem;
 }
 
 .loading__svg {
-  width: 10vw;
-  height: 10vw;
+  width: 5vw;
+  height: 5vw;
   animation: 
-      spin 1s linear infinite;
+    spin  1s linear infinite;
   align-items: center;
   justify-content: center;
 }
@@ -192,7 +192,7 @@ img {
       stroke-dashoffset: 0;
   }
   50%{
-      stroke-dasharray: 90, 150;
+      stroke-dasharray: 100, 150;
       stroke-dashoffset: -35;
   }
   100%{
@@ -203,7 +203,7 @@ img {
 
 circle {
   fill: none;
-  stroke: #167dc6;
+  stroke: var(--text-color);
   stroke-width: 3px;
   stroke-linecap: round;
   animation: dash 2.5s ease-in-out infinite;
