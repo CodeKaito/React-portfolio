@@ -1,3 +1,6 @@
+![Registrazione schermo 2023-01-07 alle 19 03 48](https://user-images.githubusercontent.com/57111980/211167583-af39a9bc-1cf9-4287-9da7-e0042b174f23.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
